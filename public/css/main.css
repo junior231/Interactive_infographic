@@ -1,0 +1,59 @@
+body {
+  background-color: #faf2f2;
+  color: black;
+  font-size: 14px;
+}
+
+.mainHeader {
+  margin-top: 20px;
+}
+
+.mainHeader h2 {
+  text-align: center;
+}
+
+.content-one {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.content-one h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content-one .info-one .picture {
+  width: 280px;
+  margin: 0 auto;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.content-one .info-one .text {
+  margin-top: 30px;
+  line-height: 24px;
+  font-size: 18px;
+  padding: 0 10px 0 10px;
+}
+
+.content-two {
+  margin: 40px 0 20px 20px;
+}
+
+.content-two h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.content-two .picture-two {
+  width: 100%;
+  margin-right: 20px;
+}
+
+.content-two .text-two {
+  margin-top: 30px;
+  line-height: 24px;
+  font-size: 18px;
+  padding: 0 10px 0 10px;
+}
+/*# sourceMappingURL=main.css.map */
