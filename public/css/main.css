@@ -1,59 +1,87 @@
-body {
-  background-color: #faf2f2;
-  color: black;
-  font-size: 14px;
-}
+* { box-sizing: border-box; }
+
+/* @font-face {
+  font-family: 'brewery';
+  src: url('AmericanBreweryRough.ttf') format('truetype');
+} */
+body { background-color: rgb(248, 245, 245); color: black; font-size: 14px; }
 
 .mainHeader {
-  margin-top: 20px;
+    text-align: center;
+    margin: 30px 0 40px 0;
 }
 
-.mainHeader h2 {
+.buffer { min-height: 100vh }
+
+.container { padding: 10px; margin: 0 auto; }
+
+section { display: flex; flex-direction: row; margin-bottom: 100px; color: rgb(10, 10, 10); }
+
+section > div:not(.text-wrapper) {
+  width: 30%; display:
+  inline-block;
   text-align: center;
+  padding: 20px;
+  position: relative;
 }
 
-.content-one {
-  margin-top: 40px;
+.label-wrapper {
+   padding: 5px;
+}
+
+.text-wrapper {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30px;
+  width: 65%;
+}
+
+section h3 {
+  display: inline-block;
+  color: black;
+  font-family: 'brewery', sans-serif;
+  font-size: 2rem;
+  margin-bottom: 0
+}
+section p { color: black; width: 70%; font-size: 1.25rem; }
+
+.hidden { display: none; }
+
+.svg-graphic { width: 280px; }
+
+.main-header {
+  margin: 20px 0 0 40px; 
+  font-size: 2rem;
+  font-family: "brewery", sans-serif;
+}
+
+.beer-info { display: inline-block; vertical-align: top; padding: 30px; border: thin solid white; }
+
+p > span { display: block; padding-bottom: 12px; }
+
+.popover { 
+  display: none;
+  position: absolute;
+  top: 10%;
+  left: 110%;
+  background-color: rgb(90, 87, 245);
+  width: 300px;
+  z-index: 1;
+  border-radius: 8px;
+  padding: 4px;
+  opacity: 80%;
+}
+
+.show-popover { display: block; }
+
+.see-more { 
+    width: 100px;
+    text-align: center;
+  display: block; 
+  padding: 10px; 
+  border-radius: 8px; 
+  color: white; 
+  background-color: rgb(85, 13, 219); 
+  margin-top: 10px;
   margin-left: 20px;
 }
-
-.content-one h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.content-one .info-one .picture {
-  width: 280px;
-  margin: 0 auto;
-  padding: 5px;
-  margin-right: 10px;
-}
-
-.content-one .info-one .text {
-  margin-top: 30px;
-  line-height: 24px;
-  font-size: 18px;
-  padding: 0 10px 0 10px;
-}
-
-.content-two {
-  margin: 40px 0 20px 20px;
-}
-
-.content-two h2 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.content-two .picture-two {
-  width: 100%;
-  margin-right: 20px;
-}
-
-.content-two .text-two {
-  margin-top: 30px;
-  line-height: 24px;
-  font-size: 18px;
-  padding: 0 10px 0 10px;
-}
-/*# sourceMappingURL=main.css.map */
